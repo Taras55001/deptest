@@ -1,0 +1,5 @@
+config.ini
+.env
+.idea
+.history
+_pycache_
