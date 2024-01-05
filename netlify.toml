@@ -3,4 +3,4 @@
 
 [context.production]
   publish = "output/"
-  command = "uvicorn chat.asgi:application"
+  command = "uvicorn mysite.asgi:application"
