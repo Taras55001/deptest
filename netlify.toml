@@ -1,6 +1,5 @@
 [build]
   command = "pip install -r requirements.txt && python manage.py collectstatic --noinput"
 
-[context.production]
-  publish = "output/"
+[dev]
   command = "uvicorn mysite.asgi:application"
